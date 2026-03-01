@@ -26,16 +26,16 @@ whisper_cpp <audio_file> [--model=MODEL_NAME] [--language=LANG_CODE]
 
 ```bash
 # Use default base model with auto language detection
-whisper_cpp /path/to/audio.mp3
+whisper_cpp /PATH/TO/audio.mp3
 
 # Use specific model
-whisper_cpp /path/to/audio.mp3 --model=medium
+whisper_cpp /PATH/TO/audio.mp3 --model=medium
 
 # Specify language
-whisper_cpp /path/to/audio.mp3 --language=en
+whisper_cpp /PATH/TO/audio.mp3 --language=en
 
 # Both model and language
-whisper_cpp /path/to/audio.mp3 --model=large --language=fr
+whisper_cpp /PATH/TO/audio.mp3 --model=large --language=fr
 ```
 
 # Implementation
@@ -46,8 +46,8 @@ whisper_cpp /path/to/audio.mp3 --model=large --language=fr
 set -e
 
 # Configuration
-MODELS_DIR="/home/ivo/Projects/others/whisper.cpp/models"
-WHISPER_BIN="/home/ivo/Projects/others/whisper.cpp/build/bin/whisper-cli"
+MODELS_DIR="/PATH/TO/whisper.cpp/models"
+WHISPER_BIN="/PATH/TO/whisper.cpp/build/bin/whisper-cli"
 DEFAULT_MODEL="base"
 
 # Parse arguments
