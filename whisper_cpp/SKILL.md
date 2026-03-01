@@ -13,7 +13,7 @@ Use this skill when the user asks to:
 
 Run the whisper_cpp command with the audio file path:
 
-/home/ivo/.local/bin/whisper_cpp /path/to/audio.mp3
+/PATH/TO/bin/whisper_cpp /path/to/audio.mp3
 
 Optional: Add --model=medium or --language=en if needed.
 
