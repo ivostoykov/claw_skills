@@ -1,0 +1,6 @@
+{
+  "name": "whisper_cpp",
+  "version": "1.0.0",
+  "description": "Local speech-to-text using Whisper.cpp. Runs fully offline with downloaded models. High quality transcription with multiple model sizes.",
+  "author": "ivo"
+}

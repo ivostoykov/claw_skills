@@ -1,0 +1,7 @@
+{
+  "name": "local_time",
+  "version": "1.0.0",
+  "description": "Get the current local date and time from the system",
+  "author": "ivo",
+  "enabled": true
+}
